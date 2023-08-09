@@ -48,7 +48,7 @@ app.post("/send", function (req, res) {
       title: "Notif",
       body: 'This is a Test Notification'
     },
-    token: "fgryEcABRhipBQ3sWPlsIQ:APA91bHeUUrxeH4ioxSx1i0EgYK0un2clljYtOjf7q9KzYcZNkwlEcBnGtS5rlAZuPIe6v9QhnbszxkbrBWCImwCBQl7NFfGcScAI2lD3NzaDPCiXxT6l16oiy0BHx6HuJDtALZDIJ_v",
+    token: "eXaCwhcqR2m9IwIginxiJY:APA91bEj8ZShf_-ynopGJciigSA5RojdUnMCsyLFRjytdrvHmTfJzyvCLwYfn1N9G7g6VtBvcwlVyIxzvEZ8TlVFiP9gSZuhz48Yd1qhKzNIEx7hObv1busAEtPo1TqP1nHjvFljiHLO",
   };
   
   getMessaging()
