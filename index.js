@@ -29,7 +29,7 @@ app.use(function(req, res, next) {
 
 initializeApp({
   credential: applicationDefault(),
-  projectId: 'CrimeAppServer',
+  projectId: 'wipg5-d88b1',
 });
 
 app.post("/send", function (req, res) {
