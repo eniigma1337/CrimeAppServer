@@ -1,14 +1,14 @@
 import {initializeApp, applicationDefault } from 'firebase-admin/app';
 import { getMessaging } from "firebase-admin/messaging";
 import express, { json } from "express";
+import * as admin from "firebase-admin"
 
 import cors from "cors";
 
 
-const serviceAccount = require(process.env.GOOGLE_APPLICATION_CREDENTIALS);
+const serviceAccount = process.env.GOOGLE_APPLICATION_CREDENTIALS;
 
 const app = express();
-const admin = require("firebase-admin");
 app.use(express.json());
 
 app.use(
