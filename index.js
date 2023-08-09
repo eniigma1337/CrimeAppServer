@@ -1,12 +1,18 @@
 import {initializeApp, applicationDefault } from 'firebase-admin/app';
 import { getMessaging } from "firebase-admin/messaging";
 import express, { json } from "express";
-import * as admin from "firebase-admin"
+
 
 import cors from "cors";
 
+import { createRequire } from "module";
+const require = createRequire(import.meta.url);
 
-const serviceAccount = process.env.GOOGLE_APPLICATION_CREDENTIALS;
+var admin = require("firebase-admin");
+
+var serviceAccount = require("wipg5-d88b1-firebase-adminsdk-2m8g6-876f8c77b8.json");
+
+// const serviceAccount = process.env.GOOGLE_APPLICATION_CREDENTIALS;
 
 const app = express();
 app.use(express.json());
