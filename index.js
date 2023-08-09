@@ -10,7 +10,7 @@ const require = createRequire(import.meta.url);
 
 var admin = require("firebase-admin");
 
-var serviceAccount = require("wipg5-d88b1-firebase-adminsdk-2m8g6-876f8c77b8.json");
+var serviceAccount = require("./wipg5-d88b1-firebase-adminsdk-2m8g6-876f8c77b8.json");
 
 // const serviceAccount = process.env.GOOGLE_APPLICATION_CREDENTIALS;
 
